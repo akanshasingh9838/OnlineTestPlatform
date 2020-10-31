@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-decoration:none;
+}
+
+/*sidebar css */
+.sidebar{
+    position: fixed;
+    left:0;
+    width:250px;
+    height:100%;
+    background-color: #042331;
+}
+
+.sidebar header{
+    font-size:22px;
+    line-height:70px;
+    color:white;
+    text-align:center;
+    background-color: #063146;
+}
+.sidebar ul a{
+    display:block;
+    line-height:65px;
+    width:100%;
+    height:100%;
+    color:white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top:1px solid rgba(255,255,255,0.1);
+    border-bottom:1px solid black;
+}
+
+.sidebar ul li:hover a{
+    padding-left:50px;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+#signup-form,#login-form{
+    width:500px;
+    background-color: rgb(211, 205, 218);
+    padding:40px 20px;
+    box-sizing: border-box;
+    margin-left:10px;
+    margin-top:10px;
+  
+}
+#signup-form h2,#login-form h2{
+    font-size:40px;
+    text-align: center;
+    color: rgb(24, 11, 2);
+    font-weight: bolder;
+}
+#signup label ,#login-form label{
+    display:block;
+    margin-top: 10px;
+    font-size:25px;
+}
+
+#signup-form input,#login-form input{
+    width:100%;
+    box-sizing: border-box;
+    margin-top:5px;
+    padding:10px 10px;
+    font-size:15px;
+}
+
+#signup-form input[type="submit"],#login-form input[type="submit"]{
+ color:white;
+ background-color: rgb(129, 24, 45);
+ font-size:20px;
+ margin-top:40px;
+}
+
+#signup-form .already,#login-form .already{
+    font-size:20px;
+    margin-top:20px;
+}
+#message{
+    margin-top:20px;
+    width:500px;
+    margin-left:10px;
+    font-size:30px;
+    color:green;
+
+}
+
+#errors{
+    width:500px;
+    margin-left:10px;
+    font-size:20px;
+}
+#errors li{
+    color:red;
+}
+
+/* css for members.php */
+#logout{
+    
+    margin:40px 40px;
+}
+#logout a{
+    border:solid 1px black;
+    font-size:25px;
+    font-weight:bolder;
+}
+
+
+/* addquestions.php css*/
+
+.container
+{
+    margin-left: 255px;
+    
+}
+
+.container form{
+    box-sizing:border-box;
+    border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.container input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  /* .container{
+      margin-left:255px;
+  } */
+
+  table, tr, td, th {
+    border: 1px solid gray;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 8px;
+
+  }
+  table {
+      width: 100%;
+  }
+
+
+ .mainpage .heading  {
+      font-size: 60px;
+      text-align: center;
+      color:purple;
+      font-weight: bolder;
+      margin-top:70px;
+  }
+
+  .menu{
+    text-align:center;
+    margin-top:200px;
+  }
+
+ .menu a{
+     text-align:center;
+     padding:20px;
+     border:2px solid purple;
+     margin-right:50px;
+     background-color: rgb(59, 16, 25);
+     color:white;
+     font-size:30px;
+     border-radius: 10px;
+ }
+
+ .category {
+     background-color: blue;
+ }

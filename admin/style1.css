@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#signup-form,#login-form{
+    width:500px;
+    background-color: rgb(211, 205, 218);
+    padding:40px 20px;
+    box-sizing: border-box;
+    margin: auto;
+  
+}
+#signup-form h2,#login-form h2{
+    font-size:40px;
+    text-align: center;
+    color: rgb(24, 11, 2);
+    font-weight: bolder;
+}
+#signup label ,#login-form label{
+    display:block;
+    margin-top: 10px;
+    font-size:25px;
+}
+
+#signup-form input,#login-form input{
+    width:100%;
+    box-sizing: border-box;
+    margin-top:5px;
+    padding:10px 10px;
+    font-size:15px;
+}
+
+#signup-form input[type="submit"],#login-form input[type="submit"]{
+ color:white;
+ background-color: rgb(129, 24, 45);
+ font-size:20px;
+ margin-top:40px;
+}
+
+#signup-form .already,#login-form .already{
+    font-size:20px;
+    margin-top:20px;
+}
+#message{
+    margin-top:20px;
+    width:500px;
+    margin-left:10px;
+    font-size:30px;
+    color:green;
+
+}
+
+#errors{
+    width:500px;
+    margin-left:10px;
+    font-size:20px;
+}
+#errors li{
+    color:red;
+}
+
+/* css for members.php */
+#logout{
+    
+    margin:40px 40px;
+}
+#logout a{
+    border:solid 1px black;
+    font-size:25px;
+    font-weight:bolder;
+}
+
+/*sidebar css */
+
+.sidebar{
+    position:fixed;
+    left:0;
+    width:250px;
+    height:100%;
+    background:#042331;
+}
